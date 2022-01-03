@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS task 4</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cardo:ital@1&family=Great+Vibes&family=Josefin+Slab:wght@100&family=Russo+One&display=swap" rel="stylesheet">
+<style>
+    .main{
+       
+        background-color: rgb(255, 255, 255);
+    }
+    body{
+        background-color: #c2c0c0;
+        outline-style: double;
+        margin:0px 200px 0px  200px ;
+    }
+ h2{
+        display: flex;
+      justify-content: center;
+        color: #690000;
+        font-size: 15px;
+       padding-top: 50px;
+        align-items: center;
+      
+    }
+    h2 .center {
+  display: flex;
+  width: 5%;
+}
+h1{
+    text-transform: uppercase;
+    font-size: 40px;
+    text-align: center;
+    color: #690000;
+    margin-top: -2px;
+    font-weight: 900;
+    letter-spacing: 4px;
+    font-family: 'Russo One', sans-serif;
+}
+h3{
+    text-transform: lowercase;
+    font-size: 35px;
+    font-family: 'Great Vibes', cursive;
+    text-align: center;
+    font-weight: 200;
+    margin-top: -20px;
+    color: #690000;
+    letter-spacing: 2px;
+}
+ul{
+    width: min-content;
+    list-style: none;
+    overflow: hidden;
+    text-align: center;
+    border-top: 2px solid black;
+}
+.tab{
+    margin: auto;
+    width:60%;
+    text-align: center;
+    border-top: 2px solid black;
+    border-bottom: 1px solid gray;
+    padding: 10px;
+}
+.tab a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    padding: 5px 10px;
+}
+.tab .active{
+    color: red;
+
+}
+.images{
+    margin-top: 50px;
+}
+
+.cen {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+p{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60% ;
+ text-align: center; 
+  letter-spacing: 2px;
+  word-spacing: 5px;
+  margin-bottom: 50px;
+  padding-bottom: 50px;
+  font-family: 'Cardo', serif;
+}
+</style>
+<body>
+    <div class="main">
+    <div>
+        <h2>Vintage 
+        <img class= "center" src="1.png" alt="" >
+         Guitars</h2>
+    </div>
+     <h1>
+         guitar shop
+     </h1>
+     <h3>your slogan Here</h3>
+    <div class="tab">
+        <a href="#" class="active">Home</a>
+        <a href="#">For Sale</a>
+        <a href="#">Repairs</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+    </div>     
+  <div class="images">
+      <img src="https://m.media-amazon.com/images/I/616iRY5yuZL._AC_SS450_.jpg" alt="" class="cen">
+  </div>
+
+  <p>
+      We specialise in the sales and repair of acoustic guitars, in particular the Yamaha F310, Fender CD-60 SCE NAT, and Donner DAG-1C.
+  </p>
+</div>
+</body>
+</html>

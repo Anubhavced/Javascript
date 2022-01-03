@@ -1,0 +1,287 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header .container{
+    background-color: black;
+    color: white;
+}
+header .container nav{
+    display: flex;
+    padding: 1rem 5rem;
+    align-items: center;
+
+}
+header .container nav .left{
+    width: 15%;
+}
+header .container nav .left img{
+    height: 50px;
+    border-radius: 50px;
+}
+header .container nav .center{
+    width: 67%;
+}
+header .container nav .right{
+    display: flex;
+}
+header .container nav .right .none {
+    display: none;
+}
+
+header .container nav .center a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+    letter-spacing: .2rem;
+    font-family: 'Lobster', cursive;
+    padding: 0 .5rem;
+    justify-content: center;
+}
+header .container nav .right{
+    width: 18%;
+}
+
+header .container nav .right a button{
+    background-color: rgb(69, 69, 177);
+    float: right;
+    color: white;
+    margin: 0 10px;
+    font-size: 1.5rem;
+    letter-spacing: .2rem;
+    font-family: 'Lobster', cursive;
+    padding: 0.3rem .5rem;
+} 
+header .container nav .right a button:hover{
+    background-color: rgb(79, 79, 224);
+    color: rgb(43, 6, 6);
+}
+
+.banner-one img{
+    height: 87vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: relative;
+    background-attachment: fixed;
+    
+}
+.banner-one .text-block{
+    position: absolute;
+    top: 45%;  
+    left: 20%;
+}
+.banner-one .text-block h1{
+    color: white;
+    
+    font-family: 'Lobster', cursive;
+    letter-spacing: 5px;
+}
+.banner-one .text-block h1 mark{
+    background-color: black;
+    color: white;
+    padding: .5rem 1rem;
+}
+.banner-one .text-block h2{
+    font-family: 'Source Serif Pro', serif;
+    margin: 10px auto;
+    text-align: center;
+    font-weight: 900 bolder;
+    padding: .5rem 1rem;
+    
+    
+}
+.section-two h1{
+    text-align: center;
+    font-size: 2rem;
+    letter-spacing: 10px;
+    padding: 3%; 
+    font-family: 'Source Serif Pro', serif;
+}
+
+.section-two .line{
+    width: 25%;
+    margin: -25px auto;
+    border: 2px solid;
+    color: black;
+}
+.section-two .container{
+    display: flex;
+    padding: 3% 3%;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.section-two .container .col {
+    margin: 25px;
+    padding: 1% 1%;
+    flex: 18%;
+    border: 1px solid black;
+}
+.section-two .container .col img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.section-two .container p{
+    text-align: justify;
+    padding: 15px 1%;
+    font-size: 12px;
+}
+.section-three{
+    margin: auto;
+}
+.section-three h1{
+    text-align: center;
+    font-size: 2rem;
+    letter-spacing: 10px;
+    padding: 3%; 
+    font-family: 'Lobster', cursive;
+}
+.section-three  p{
+    text-align: center;
+    display: block;
+    margin-top: 30px;
+    padding: 5px 15%;
+    font-size: 16px;
+}
+.section-three .container{
+    display: flex;
+    padding: 3% 3%;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.section-three .container .col1 {
+    margin: 20px;
+    padding: 2% 1%;
+    flex: 40%;
+
+}
+.section-three .container .col1 img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+.section-three  .line1 {
+    width: 25%;
+    margin: -25px auto;
+    border: 2px solid;
+    color: rgb(49, 89, 218);
+}
+
+
+
+
+
+
+@media  screen and (max-width: 1108px) {
+    header .container nav .center a{
+    font-size: 1.3rem;
+    }
+    header .container nav .right a .two {
+        display: none;
+    }
+    header .container nav .center{
+        display: none;
+    }
+    header .container nav .left{
+        width: 90%;
+    }
+    header .container nav .right .none{
+        display: inherit;
+        font-size: 20px;
+        margin-top: 12px;
+        margin-right: 12px;
+    }
+    header .container nav{
+        padding: 1rem 3rem;
+    }
+    header .container nav .center{
+        flex-grow: 1;
+        width: 85%;
+    }
+    .banner-one .text-block{ 
+        left: 13%;
+    }
+}
+@media  screen and (max-width: 959px){
+   
+   
+    
+    .section-two .container .col{
+    flex: 40%;
+    }
+    .section-two h1 {
+        font-size: 1rem;
+    }
+    .section-two .line{
+        width: 30%;
+        margin-top: -18px;
+        border: 1px solid;
+    }
+    .banner-one .text-block{ 
+        left: 15%;
+    }
+    .banner-one .text-block h1{
+        font-size: 18px;
+    }
+    .banner-one .text-block h2{
+        font-size: 15px;
+    }
+}
+
+@media  screen and (max-width: 850px) {
+    .banner-one .text-block{ 
+        left: 5%;
+    }
+    .banner-one .text-block h1{
+        font-size: 18px;
+        line-height: 38px;
+        text-align: center;
+    }
+    .banner-one .text-block h2{
+        font-size: 15px;
+    }
+    .section-two .line{
+        width: 30%;
+        margin-top: -13px;
+        border: 1px solid;
+    }
+    .section-three  .line1 {
+        width: 35%;
+        margin: -15px auto;
+    }
+}
+@media  screen and (max-width: 650px){
+    .section-three .container .col1 {
+            flex: 100%;
+    }
+    .section-two h1{
+        font-size: 1rem;
+        letter-spacing: 5px;
+    }
+    .section-two .line{
+        width: 30%;
+        margin-top: -5px;
+        
+    }
+    .section-three  .line1 {
+        width: 40%;
+        margin: -5px auto;
+    }
+    .section-three h1{
+        font-size: 15px;
+    }
+}
+@media  screen and (max-width: 465px){
+    .section-three h1{
+        font-size: 15px;
+        letter-spacing: 3px;
+    }
+}

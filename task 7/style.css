@@ -1,0 +1,342 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header .container{
+    background-color: white;
+}
+header .container nav{
+
+    padding: 1rem 5rem;
+   
+
+}
+header .top nav{
+    padding: 0.5rem 3rem;
+    display: flex;
+    justify-content: right;
+}
+header .top nav div{
+    display: inline-flex;
+}
+header .top nav div a{
+    text-decoration: none;
+    font-size: 20px;
+    background-color: rgb(5, 5, 163);
+    color: white;
+    text-align: center;
+    padding: 0.6rem 2rem;
+}
+header .top nav div .btn1{
+    background-color: rgb(0, 138, 252);
+}
+header .bottom nav{
+    padding: 0rem 3rem;
+    display: flex;
+}
+header .bottom nav .left{
+    width: 15%;
+}
+header .bottom nav .left img{
+    height: 50px;
+    border-radius: 50px;
+}
+header .bottom nav .right{
+    width: 85%;   
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+header .bottom nav .right a{
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    padding: 0.5rem 0.3rem;
+    border: .1px solid rgb(245, 238, 238);
+    margin-right: 1px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+header .bottom nav .right a i{
+    font-size: 20px;
+    padding: .3rem .3rem;
+    margin-top: 0px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(14, 43, 173);
+}
+header .bottom nav .right a i:hover{
+    color: rgb(0, 0, 0);
+    background-color: rgb(14, 173, 93);
+}
+header .bottom nav .right .ach:hover{
+    background-color: aqua;
+}
+header .bottom nav .right .none{
+    display: none;
+}
+.banner-one img{
+    height: 77vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: relative;
+    background-attachment: scroll;
+    object-fit: cover;
+    
+}
+.banner-one .text-block{
+    position: absolute;
+    top: 55%;  
+    left: 28%;
+}
+.banner-one .text-block h1{
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    letter-spacing: 5px;
+}
+.banner-one .text-block h1 mark{
+    background-color: black;
+    color: white;
+    padding: .5rem 1rem;
+}
+.banner-one .text-block h4{
+    font-family: 'Source Serif Pro', serif;
+    margin: 10px auto;
+    text-align: center;
+    font-size: 1.5rem;
+    text-align: center;
+    letter-spacing: 5px;
+    font-weight: 900 bolder;
+    padding: .5rem 1rem;
+    
+    
+}
+.abc {
+ 
+    position: fixed;
+    bottom: 0px;
+    width:100%;
+    height:80px;
+    left: 0px;
+    z-index: 99;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+  }
+  .abc #one{
+      padding: 10px;
+      font-size: 20px;
+      letter-spacing: 1.5px;
+  }
+  .divone{
+    
+        display: flex;
+        padding: 3% 0%;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+  
+  .divone .col {
+    margin: 25px;
+    padding: 1% 1%;
+    flex: 18%;
+    border: 1px solid black;
+}
+  .divone .col img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 10rem;
+}
+.divone .col h6{
+    padding: 15px 0;
+    letter-spacing: px;
+    font-size: 15px;
+}
+
+
+
+footer{
+    display: flex;
+    background-color: #000000;
+}
+footer h5{
+    padding: 15px 30px;
+    color: azure;
+    font-size: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media  screen and (max-width: 1102px){
+    header .bottom nav .right a{
+        font-size: 1rem;
+    }
+    .banner-one .text-block{  
+        left: 25%;
+    }
+    .banner-one .text-block h1 {
+        font-size: 2.5rem;
+    }
+    .banner-one .text-block h4 {
+        font-size: 1.2rem;
+    }
+    .abc #one{
+        font-size: 15px;
+        letter-spacing: 1px;
+    }
+  
+    
+}
+@media  screen and (max-width: 1024px){
+   
+}
+@media  screen and (max-width: 951px){
+    header .bottom nav .right a{
+        font-size:  0.9rem;
+    }
+    header .top nav{
+        padding: 0.3rem 1rem;
+    }
+    header .bottom nav{
+        padding: 0.3rem 1rem;
+    }
+    header .bottom nav .right a{
+        padding: 0.2rem .2rem;
+    }
+    .banner-one .text-block{  
+        left: 25%;
+    }
+    .banner-one .text-block h1 {
+        font-size: 2.1rem;
+    }
+    .banner-one .text-block h4 {
+        font-size: 1rem;
+    }
+
+}
+@media  screen and (max-width: 841px){
+    .banner-one .text-block{  
+        left: 25%;
+        top: 60%;
+    }
+    .banner-one .text-block h1 {
+        font-size: 1.8rem;
+    }
+    .banner-one .text-block h4 {
+        font-size: 0.8rem;
+    }
+}
+@media  screen and (max-width: 768px){
+    header .bottom nav .right .ach{
+        display: none;
+    }
+    header .bottom nav .right .none{
+        display: inherit;
+    }
+    .banner-one .text-block{  
+        left: 25%;
+    }
+    .banner-one .text-block h1 {
+        font-size: 1.5rem;
+        
+    }
+    .banner-one .text-block h4 {
+        font-size: 0.6rem;
+    }
+    header .top nav div{
+        width: 100%;
+    }
+    header .top nav div a{
+        width: 33.3%;
+        text-align: center;
+    }
+    .divone .col {
+        flex: 38%;
+    }
+}
+@media  screen and (max-width: 626px){
+    .banner-one .text-block{  
+        left: 15%;
+        top: 65%;
+    }
+    .banner-one .text-block h1 {
+        font-size: 1.2rem;
+        
+    }
+    .banner-one .text-block h4 {
+        font-size: 0.5rem;
+    }
+    .abc #one{
+        font-size: 11px;
+        letter-spacing: 1px;
+    }
+    footer h5{
+       
+        font-size: .6rem;
+    }
+}
+@media  screen and (max-width: 425px){
+    .banner-one .text-block{  
+        left: 8%;
+        top: 45%;
+    }
+    .banner-one .text-block h1 {
+        font-size: 1.6rem;
+        line-height: 55px;
+        
+    }
+    .banner-one .text-block h4 {
+        font-size: 0.5rem;
+    }
+    header .top nav{
+        padding: 0.3rem 0.3rem
+    }
+   
+    header .top nav div a{
+        padding: 0.6rem .5rem;
+        font-size: 15px;
+
+    }
+    .abc #one{
+        font-size: 10px;
+        letter-spacing: .5px;
+    }
+    .divone .col {
+        flex: 60%;
+    }
+}
+}
